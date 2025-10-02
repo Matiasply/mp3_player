@@ -1,0 +1,17 @@
+{
+    "name": "Minha Playlist",
+    "tracks": [
+        {
+            "artist": "lisa",
+            "duration": 90,
+            "filePath": "C:\\Users\\anald\\Downloads\\gurenge.mp3",
+            "title": "gurenge"
+        },
+        {
+            "artist": "lisa",
+            "duration": 90,
+            "filePath": "C:\\Users\\anald\\Downloads\\gurenge.wav",
+            "title": "gurenge"
+        }
+    ]
+}
