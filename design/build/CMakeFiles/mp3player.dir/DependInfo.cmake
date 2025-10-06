@@ -9,13 +9,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "mp3player_autogen/timestamp" "custom" "mp3player_autogen/deps"
-  "D:/Estudos/Universidade/p3/POO/Projeto final/design/CLI.cpp" "CMakeFiles/mp3player.dir/CLI.cpp.obj" "gcc" "CMakeFiles/mp3player.dir/CLI.cpp.obj.d"
   "D:/Estudos/Universidade/p3/POO/Projeto final/design/Equalizer.cpp" "CMakeFiles/mp3player.dir/Equalizer.cpp.obj" "gcc" "CMakeFiles/mp3player.dir/Equalizer.cpp.obj.d"
   "D:/Estudos/Universidade/p3/POO/Projeto final/design/FileManager.cpp" "CMakeFiles/mp3player.dir/FileManager.cpp.obj" "gcc" "CMakeFiles/mp3player.dir/FileManager.cpp.obj.d"
   "D:/Estudos/Universidade/p3/POO/Projeto final/design/MP3Player.cpp" "CMakeFiles/mp3player.dir/MP3Player.cpp.obj" "gcc" "CMakeFiles/mp3player.dir/MP3Player.cpp.obj.d"
+  "D:/Estudos/Universidade/p3/POO/Projeto final/design/MainWindow.cpp" "CMakeFiles/mp3player.dir/MainWindow.cpp.obj" "gcc" "CMakeFiles/mp3player.dir/MainWindow.cpp.obj.d"
   "D:/Estudos/Universidade/p3/POO/Projeto final/design/Playlist.cpp" "CMakeFiles/mp3player.dir/Playlist.cpp.obj" "gcc" "CMakeFiles/mp3player.dir/Playlist.cpp.obj.d"
   "D:/Estudos/Universidade/p3/POO/Projeto final/design/Track.cpp" "CMakeFiles/mp3player.dir/Track.cpp.obj" "gcc" "CMakeFiles/mp3player.dir/Track.cpp.obj.d"
-  "D:/Estudos/Universidade/p3/POO/Projeto final/design/main.cpp" "CMakeFiles/mp3player.dir/main.cpp.obj" "gcc" "CMakeFiles/mp3player.dir/main.cpp.obj.d"
+  "D:/Estudos/Universidade/p3/POO/Projeto final/design/main_gui.cpp" "CMakeFiles/mp3player.dir/main_gui.cpp.obj" "gcc" "CMakeFiles/mp3player.dir/main_gui.cpp.obj.d"
   "D:/Estudos/Universidade/p3/POO/Projeto final/design/build/mp3player_autogen/mocs_compilation.cpp" "CMakeFiles/mp3player.dir/mp3player_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/mp3player.dir/mp3player_autogen/mocs_compilation.cpp.obj.d"
   )
 

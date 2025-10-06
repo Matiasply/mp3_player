@@ -116,6 +116,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named mp3player_cli
+
+# Build rule for target.
+mp3player_cli: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 mp3player_cli
+.PHONY : mp3player_cli
+
+# fast build rule for target.
+mp3player_cli/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/build
+.PHONY : mp3player_cli/fast
+
+#=============================================================================
 # Target rules for targets named mp3player
 
 # Build rule for target.
@@ -127,6 +140,32 @@ mp3player: cmake_check_build_system
 mp3player/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/build
 .PHONY : mp3player/fast
+
+#=============================================================================
+# Target rules for targets named mp3player_cli_autogen_timestamp_deps
+
+# Build rule for target.
+mp3player_cli_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 mp3player_cli_autogen_timestamp_deps
+.PHONY : mp3player_cli_autogen_timestamp_deps
+
+# fast build rule for target.
+mp3player_cli_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli_autogen_timestamp_deps.dir\build.make CMakeFiles/mp3player_cli_autogen_timestamp_deps.dir/build
+.PHONY : mp3player_cli_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named mp3player_cli_autogen
+
+# Build rule for target.
+mp3player_cli_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 mp3player_cli_autogen
+.PHONY : mp3player_cli_autogen
+
+# fast build rule for target.
+mp3player_cli_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli_autogen.dir\build.make CMakeFiles/mp3player_cli_autogen.dir/build
+.PHONY : mp3player_cli_autogen/fast
 
 #=============================================================================
 # Target rules for targets named mp3player_autogen_timestamp_deps
@@ -159,7 +198,7 @@ CLI.obj: CLI.cpp.obj
 
 # target to build an object file
 CLI.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/CLI.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/CLI.cpp.obj
 .PHONY : CLI.cpp.obj
 
 CLI.i: CLI.cpp.i
@@ -167,7 +206,7 @@ CLI.i: CLI.cpp.i
 
 # target to preprocess a source file
 CLI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/CLI.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/CLI.cpp.i
 .PHONY : CLI.cpp.i
 
 CLI.s: CLI.cpp.s
@@ -175,7 +214,7 @@ CLI.s: CLI.cpp.s
 
 # target to generate assembly for a file
 CLI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/CLI.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/CLI.cpp.s
 .PHONY : CLI.cpp.s
 
 Equalizer.obj: Equalizer.cpp.obj
@@ -183,6 +222,7 @@ Equalizer.obj: Equalizer.cpp.obj
 
 # target to build an object file
 Equalizer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/Equalizer.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/Equalizer.cpp.obj
 .PHONY : Equalizer.cpp.obj
 
@@ -191,6 +231,7 @@ Equalizer.i: Equalizer.cpp.i
 
 # target to preprocess a source file
 Equalizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/Equalizer.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/Equalizer.cpp.i
 .PHONY : Equalizer.cpp.i
 
@@ -199,6 +240,7 @@ Equalizer.s: Equalizer.cpp.s
 
 # target to generate assembly for a file
 Equalizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/Equalizer.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/Equalizer.cpp.s
 .PHONY : Equalizer.cpp.s
 
@@ -207,6 +249,7 @@ FileManager.obj: FileManager.cpp.obj
 
 # target to build an object file
 FileManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/FileManager.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/FileManager.cpp.obj
 .PHONY : FileManager.cpp.obj
 
@@ -215,6 +258,7 @@ FileManager.i: FileManager.cpp.i
 
 # target to preprocess a source file
 FileManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/FileManager.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/FileManager.cpp.i
 .PHONY : FileManager.cpp.i
 
@@ -223,6 +267,7 @@ FileManager.s: FileManager.cpp.s
 
 # target to generate assembly for a file
 FileManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/FileManager.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/FileManager.cpp.s
 .PHONY : FileManager.cpp.s
 
@@ -231,6 +276,7 @@ MP3Player.obj: MP3Player.cpp.obj
 
 # target to build an object file
 MP3Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/MP3Player.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/MP3Player.cpp.obj
 .PHONY : MP3Player.cpp.obj
 
@@ -239,6 +285,7 @@ MP3Player.i: MP3Player.cpp.i
 
 # target to preprocess a source file
 MP3Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/MP3Player.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/MP3Player.cpp.i
 .PHONY : MP3Player.cpp.i
 
@@ -247,14 +294,40 @@ MP3Player.s: MP3Player.cpp.s
 
 # target to generate assembly for a file
 MP3Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/MP3Player.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/MP3Player.cpp.s
 .PHONY : MP3Player.cpp.s
+
+MainWindow.obj: MainWindow.cpp.obj
+.PHONY : MainWindow.obj
+
+# target to build an object file
+MainWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/MainWindow.cpp.obj
+.PHONY : MainWindow.cpp.obj
+
+MainWindow.i: MainWindow.cpp.i
+.PHONY : MainWindow.i
+
+# target to preprocess a source file
+MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/MainWindow.cpp.i
+.PHONY : MainWindow.cpp.i
+
+MainWindow.s: MainWindow.cpp.s
+.PHONY : MainWindow.s
+
+# target to generate assembly for a file
+MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/MainWindow.cpp.s
+.PHONY : MainWindow.cpp.s
 
 Playlist.obj: Playlist.cpp.obj
 .PHONY : Playlist.obj
 
 # target to build an object file
 Playlist.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/Playlist.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/Playlist.cpp.obj
 .PHONY : Playlist.cpp.obj
 
@@ -263,6 +336,7 @@ Playlist.i: Playlist.cpp.i
 
 # target to preprocess a source file
 Playlist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/Playlist.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/Playlist.cpp.i
 .PHONY : Playlist.cpp.i
 
@@ -271,6 +345,7 @@ Playlist.s: Playlist.cpp.s
 
 # target to generate assembly for a file
 Playlist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/Playlist.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/Playlist.cpp.s
 .PHONY : Playlist.cpp.s
 
@@ -279,6 +354,7 @@ Track.obj: Track.cpp.obj
 
 # target to build an object file
 Track.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/Track.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/Track.cpp.obj
 .PHONY : Track.cpp.obj
 
@@ -287,6 +363,7 @@ Track.i: Track.cpp.i
 
 # target to preprocess a source file
 Track.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/Track.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/Track.cpp.i
 .PHONY : Track.cpp.i
 
@@ -295,32 +372,57 @@ Track.s: Track.cpp.s
 
 # target to generate assembly for a file
 Track.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/Track.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/Track.cpp.s
 .PHONY : Track.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+main_cli.obj: main_cli.cpp.obj
+.PHONY : main_cli.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+main_cli.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/main_cli.cpp.obj
+.PHONY : main_cli.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+main_cli.i: main_cli.cpp.i
+.PHONY : main_cli.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/main.cpp.i
-.PHONY : main.cpp.i
+main_cli.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/main_cli.cpp.i
+.PHONY : main_cli.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+main_cli.s: main_cli.cpp.s
+.PHONY : main_cli.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/main.cpp.s
-.PHONY : main.cpp.s
+main_cli.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/main_cli.cpp.s
+.PHONY : main_cli.cpp.s
+
+main_gui.obj: main_gui.cpp.obj
+.PHONY : main_gui.obj
+
+# target to build an object file
+main_gui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/main_gui.cpp.obj
+.PHONY : main_gui.cpp.obj
+
+main_gui.i: main_gui.cpp.i
+.PHONY : main_gui.i
+
+# target to preprocess a source file
+main_gui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/main_gui.cpp.i
+.PHONY : main_gui.cpp.i
+
+main_gui.s: main_gui.cpp.s
+.PHONY : main_gui.s
+
+# target to generate assembly for a file
+main_gui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/main_gui.cpp.s
+.PHONY : main_gui.cpp.s
 
 mp3player_autogen/mocs_compilation.obj: mp3player_autogen/mocs_compilation.cpp.obj
 .PHONY : mp3player_autogen/mocs_compilation.obj
@@ -346,6 +448,30 @@ mp3player_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player.dir\build.make CMakeFiles/mp3player.dir/mp3player_autogen/mocs_compilation.cpp.s
 .PHONY : mp3player_autogen/mocs_compilation.cpp.s
 
+mp3player_cli_autogen/mocs_compilation.obj: mp3player_cli_autogen/mocs_compilation.cpp.obj
+.PHONY : mp3player_cli_autogen/mocs_compilation.obj
+
+# target to build an object file
+mp3player_cli_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/mp3player_cli_autogen/mocs_compilation.cpp.obj
+.PHONY : mp3player_cli_autogen/mocs_compilation.cpp.obj
+
+mp3player_cli_autogen/mocs_compilation.i: mp3player_cli_autogen/mocs_compilation.cpp.i
+.PHONY : mp3player_cli_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+mp3player_cli_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/mp3player_cli_autogen/mocs_compilation.cpp.i
+.PHONY : mp3player_cli_autogen/mocs_compilation.cpp.i
+
+mp3player_cli_autogen/mocs_compilation.s: mp3player_cli_autogen/mocs_compilation.cpp.s
+.PHONY : mp3player_cli_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+mp3player_cli_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mp3player_cli.dir\build.make CMakeFiles/mp3player_cli.dir/mp3player_cli_autogen/mocs_compilation.cpp.s
+.PHONY : mp3player_cli_autogen/mocs_compilation.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -356,7 +482,10 @@ help:
 	@echo ... rebuild_cache
 	@echo ... mp3player_autogen
 	@echo ... mp3player_autogen_timestamp_deps
+	@echo ... mp3player_cli_autogen
+	@echo ... mp3player_cli_autogen_timestamp_deps
 	@echo ... mp3player
+	@echo ... mp3player_cli
 	@echo ... CLI.obj
 	@echo ... CLI.i
 	@echo ... CLI.s
@@ -369,18 +498,27 @@ help:
 	@echo ... MP3Player.obj
 	@echo ... MP3Player.i
 	@echo ... MP3Player.s
+	@echo ... MainWindow.obj
+	@echo ... MainWindow.i
+	@echo ... MainWindow.s
 	@echo ... Playlist.obj
 	@echo ... Playlist.i
 	@echo ... Playlist.s
 	@echo ... Track.obj
 	@echo ... Track.i
 	@echo ... Track.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... main_cli.obj
+	@echo ... main_cli.i
+	@echo ... main_cli.s
+	@echo ... main_gui.obj
+	@echo ... main_gui.i
+	@echo ... main_gui.s
 	@echo ... mp3player_autogen/mocs_compilation.obj
 	@echo ... mp3player_autogen/mocs_compilation.i
 	@echo ... mp3player_autogen/mocs_compilation.s
+	@echo ... mp3player_cli_autogen/mocs_compilation.obj
+	@echo ... mp3player_cli_autogen/mocs_compilation.i
+	@echo ... mp3player_cli_autogen/mocs_compilation.s
 .PHONY : help
 
 

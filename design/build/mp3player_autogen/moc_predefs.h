@@ -20,6 +20,7 @@
 #define __FLT32_MIN_EXP__ (-125)
 #define __cpp_static_assert 201411L
 #define __BFLT16_MIN_10_EXP__ (-37)
+#define QT_NEEDS_QMAIN 1
 #define QT_GUI_LIB 1
 #define __ORDER_LITTLE_ENDIAN__ 1234
 #define __WCHAR_MAX__ 0xffff
@@ -156,6 +157,7 @@
 #define __MMX_WITH_SSE__ 1
 #define _fastcall __attribute__((__fastcall__))
 #define __LDBL_HAS_DENORM__ 1
+#define QT_WIDGETS_LIB 1
 #define __SEG_GS 1
 #define __BFLT16_EPSILON__ 7.81250000000000000000000000000000000e-3BF16
 #define __cplusplus 201703L

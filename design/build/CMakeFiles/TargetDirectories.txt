@@ -1,5 +1,8 @@
+D:/Estudos/Universidade/p3/POO/Projeto final/design/build/CMakeFiles/mp3player_cli.dir
 D:/Estudos/Universidade/p3/POO/Projeto final/design/build/CMakeFiles/mp3player.dir
 D:/Estudos/Universidade/p3/POO/Projeto final/design/build/CMakeFiles/edit_cache.dir
 D:/Estudos/Universidade/p3/POO/Projeto final/design/build/CMakeFiles/rebuild_cache.dir
+D:/Estudos/Universidade/p3/POO/Projeto final/design/build/CMakeFiles/mp3player_cli_autogen_timestamp_deps.dir
+D:/Estudos/Universidade/p3/POO/Projeto final/design/build/CMakeFiles/mp3player_cli_autogen.dir
 D:/Estudos/Universidade/p3/POO/Projeto final/design/build/CMakeFiles/mp3player_autogen_timestamp_deps.dir
 D:/Estudos/Universidade/p3/POO/Projeto final/design/build/CMakeFiles/mp3player_autogen.dir

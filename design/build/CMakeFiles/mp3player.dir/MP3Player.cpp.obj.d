@@ -343,20 +343,15 @@ CMakeFiles/mp3player.dir/MP3Player.cpp.obj: \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.9.3/mingw_64/include/QtMultimedia/QAudioOutput \
  C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qaudiooutput.h \
- C:/Qt/6.9.3/mingw_64/include/QtMultimedia/QAudioDevice \
- C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qaudiodevice.h \
- C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qaudioformat.h \
- C:/Qt/6.9.3/mingw_64/include/QtCore/qshareddata.h \
- C:/Qt/6.9.3/mingw_64/include/QtMultimedia/QMediaDevices \
- C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qmediadevices.h \
- C:/Qt/6.9.3/mingw_64/include/QtCore/QUrl \
- C:/Qt/6.9.3/mingw_64/include/QtCore/qurl.h \
- C:/Qt/6.9.3/mingw_64/include/QtCore/QDebug \
+ C:/Qt/6.9.3/mingw_64/include/QtMultimedia/QMediaMetaData \
+ C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qmediametadata.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qdebug.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qtextstream.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qcontiguouscache.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qsharedpointer.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qshareddata.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/set \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_set.h \
@@ -368,14 +363,58 @@ CMakeFiles/mp3player.dir/MP3Player.cpp.obj: \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qset.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qhash.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qvarlengtharray.h \
- C:/Qt/6.9.3/mingw_64/include/QtCore/QCoreApplication \
- C:/Qt/6.9.3/mingw_64/include/QtCore/qcoreapplication.h \
- C:/Qt/6.9.3/mingw_64/include/QtCore/qcoreevent.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/q23utility.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/q20utility.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/QPixmap \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qpixmap.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qpaintdevice.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qwindowdefs.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qwindowdefs_win.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qrect.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qmargins.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qsize.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qpoint.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qcolor.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qrgb.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qrgba64.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qimage.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qpixelformat.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qtransform.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qpolygon.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qregion.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qspan.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cassert \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/q20iterator.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qline.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qtimer.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qbasictimer.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qabstracteventdispatcher.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qeventloop.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qdeadlinetimer.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qelapsedtimer.h \
+ C:/Qt/6.9.3/mingw_64/include/QtMultimedia/QAudioSink \
+ C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qaudiosink.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qaudioformat.h \
+ C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qaudiodevice.h \
+ C:/Qt/6.9.3/mingw_64/include/QtMultimedia/QAudioFormat \
+ C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qaudioformat.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/QIODevice \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/QBuffer \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qbuffer.h \
+ C:/Qt/6.9.3/mingw_64/include/QtMultimedia/QAudioDevice \
+ C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qaudiodevice.h \
+ C:/Qt/6.9.3/mingw_64/include/QtMultimedia/QMediaDevices \
+ C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qmediadevices.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/QUrl \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/QDebug \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qdebug.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/QCoreApplication \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qcoreapplication.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qcoreevent.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qnativeinterface.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qcoreapplication.h

@@ -311,7 +311,64 @@
 		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Multimedia/Qt6QWindowsMediaPluginTargets.cmake",
 		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Multimedia/Qt6QWindowsMediaPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Multimedia/Qt6QWindowsMediaPluginAdditionalTargetInfo.cmake",
-		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessAliasTargets.cmake"
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessAliasTargets.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+		"C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake",
+		"C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake",
+		"C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake",
+		"C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake",
+		"C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersion.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersionImpl.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfig.cmake",
+		"C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateDependencies.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateTargets.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateAdditionalTargetInfo.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateVersionlessAliasTargets.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cmake",
+		"C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
+		"C:/Qt/6.9.3/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "D:/Estudos/Universidade/p3/POO/Projeto final/design",
 	"CROSS_CONFIG" : false,
@@ -319,12 +376,6 @@
 	"DEP_FILE_RULE_NAME" : "mp3player_autogen/timestamp",
 	"HEADERS" : 
 	[
-		[
-			"D:/Estudos/Universidade/p3/POO/Projeto final/design/CLI.h",
-			"Mu",
-			"EWIEGA46WW/moc_CLI.cpp",
-			null
-		],
 		[
 			"D:/Estudos/Universidade/p3/POO/Projeto final/design/Equalizer.h",
 			"Mu",
@@ -341,6 +392,12 @@
 			"D:/Estudos/Universidade/p3/POO/Projeto final/design/MP3Player.h",
 			"Mu",
 			"EWIEGA46WW/moc_MP3Player.cpp",
+			null
+		],
+		[
+			"D:/Estudos/Universidade/p3/POO/Projeto final/design/MainWindow.h",
+			"Mu",
+			"EWIEGA46WW/moc_MainWindow.cpp",
 			null
 		],
 		[
@@ -365,8 +422,10 @@
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
 		"QT_MULTIMEDIA_LIB",
+		"QT_NEEDS_QMAIN",
 		"QT_NETWORK_LIB",
 		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB",
 		"UNICODE",
 		"WIN32",
 		"WIN64",
@@ -389,6 +448,7 @@
 		"C:/Qt/6.9.3/mingw_64/include/QtMultimedia",
 		"C:/Qt/6.9.3/mingw_64/include/QtGui",
 		"C:/Qt/6.9.3/mingw_64/include/QtNetwork",
+		"C:/Qt/6.9.3/mingw_64/include/QtWidgets",
 		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
 		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
 		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
@@ -410,6 +470,7 @@
 	"MOC_PREDEFS_CMD" : 
 	[
 		"C:/Qt/Tools/mingw1310_64/bin/c++.exe",
+		"-std=gnu++17",
 		"-w",
 		"-dM",
 		"-E",
@@ -417,7 +478,10 @@
 	],
 	"MOC_PREDEFS_FILE" : "D:/Estudos/Universidade/p3/POO/Projeto final/design/build/mp3player_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : [],
+	"MOC_SKIP" : 
+	[
+		"D:/Estudos/Universidade/p3/POO/Projeto final/design/build/mp3player_cli_autogen/mocs_compilation.cpp"
+	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
 	"PARSE_CACHE_FILE" : "D:/Estudos/Universidade/p3/POO/Projeto final/design/build/CMakeFiles/mp3player_autogen.dir/ParseCache.txt",
@@ -428,11 +492,6 @@
 	"SETTINGS_FILE" : "D:/Estudos/Universidade/p3/POO/Projeto final/design/build/CMakeFiles/mp3player_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[
-			"D:/Estudos/Universidade/p3/POO/Projeto final/design/CLI.cpp",
-			"Mu",
-			null
-		],
 		[
 			"D:/Estudos/Universidade/p3/POO/Projeto final/design/Equalizer.cpp",
 			"Mu",
@@ -449,6 +508,11 @@
 			null
 		],
 		[
+			"D:/Estudos/Universidade/p3/POO/Projeto final/design/MainWindow.cpp",
+			"Mu",
+			null
+		],
+		[
 			"D:/Estudos/Universidade/p3/POO/Projeto final/design/Playlist.cpp",
 			"Mu",
 			null
@@ -459,7 +523,7 @@
 			null
 		],
 		[
-			"D:/Estudos/Universidade/p3/POO/Projeto final/design/main.cpp",
+			"D:/Estudos/Universidade/p3/POO/Projeto final/design/main_gui.cpp",
 			"Mu",
 			null
 		]

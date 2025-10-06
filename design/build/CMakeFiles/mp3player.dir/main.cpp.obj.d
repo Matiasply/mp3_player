@@ -1,7 +1,9 @@
 CMakeFiles/mp3player.dir/main.cpp.obj: \
  D:\Estudos\Universidade\p3\POO\Projeto\ final\design\main.cpp \
- C:/Qt/6.9.3/mingw_64/include/QtCore/QCoreApplication \
- C:/Qt/6.9.3/mingw_64/include/QtCore/qcoreapplication.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/QApplication \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qapplication.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qtguiglobal.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qglobal.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -148,6 +150,11 @@ CMakeFiles/mp3player.dir/main.cpp.obj: \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qtresource.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qttranslation.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qversiontagging.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qtgui-config.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qtguiexports.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qcoreapplication.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qchar.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qcompare.h \
@@ -329,24 +336,120 @@ CMakeFiles/mp3player.dir/main.cpp.obj: \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qelapsedtimer.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qnativeinterface.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
- C:/Qt/6.9.3/mingw_64/include/QtCore/qcoreapplication.h \
- D:\Estudos\Universidade\p3\POO\Projeto\ final\design\CLI.h \
- D:\Estudos\Universidade\p3\POO\Projeto\ final\design\Playlist.h \
- D:\Estudos\Universidade\p3\POO\Projeto\ final\design\Track.h \
- C:/Qt/6.9.3/mingw_64/include/QtCore/QStringList \
- C:/Qt/6.9.3/mingw_64/include/QtCore/qstringlist.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qwindowdefs.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qwindowdefs_win.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qpoint.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/q23utility.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/q20utility.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qsize.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qmargins.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qcursor.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qbitmap.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qpixmap.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qpaintdevice.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qrect.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qcolor.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qrgb.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qrgba64.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qshareddata.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qimage.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qpixelformat.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qtransform.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qpolygon.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qregion.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qspan.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cassert \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/q20iterator.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qline.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qguiapplication.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qinputmethod.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qlocale.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qvariant.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qdebug.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qtextstream.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qcontiguouscache.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qsharedpointer.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/set \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_set.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multiset.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/unordered_set \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_set.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qmap.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qshareddata_impl.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qset.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qhash.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qvarlengtharray.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qguiapplication_platform.h \
  C:/Qt/6.9.3/mingw_64/include/QtCore/QString \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qstring.h \
+ D:\Estudos\Universidade\p3\POO\Projeto\ final\design\MainWindow.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/QMainWindow \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qmainwindow.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qwidget.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qaction.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qkeysequence.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qicon.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qpalette.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qbrush.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qfont.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qendian.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qfontmetrics.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qfontinfo.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qfontvariableaxis.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qsizepolicy.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/QVBoxLayout \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qlayout.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qlayoutitem.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/QHBoxLayout \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/QPushButton \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qpushbutton.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qabstractbutton.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/QLabel \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qlabel.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qpicture.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qtextdocument.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/QSlider \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qslider.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qabstractslider.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/QListWidget \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qlistwidget.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qlistview.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qabstractitemview.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qabstractitemmodel.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qitemselectionmodel.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qstyleoption.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
+ C:/Qt/6.9.3/mingw_64/include/QtGui/qvalidator.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qregularexpression.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qslider.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qstyle.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qtabbar.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qrubberband.h \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/QWidget \
+ C:/Qt/6.9.3/mingw_64/include/QtWidgets/qwidget.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/QTimer \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qtimer.h \
  D:\Estudos\Universidade\p3\POO\Projeto\ final\design\MP3Player.h \
  D:\Estudos\Universidade\p3\POO\Projeto\ final\design\MediaPlayer.h \
+ D:\Estudos\Universidade\p3\POO\Projeto\ final\design\Track.h \
  D:\Estudos\Universidade\p3\POO\Projeto\ final\design\Equalizer.h \
+ D:\Estudos\Universidade\p3\POO\Projeto\ final\design\Playlist.h \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/QStringList \
+ C:/Qt/6.9.3/mingw_64/include/QtCore/qstringlist.h \
  C:/Qt/6.9.3/mingw_64/include/QtMultimedia/QMediaPlayer \
  C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qmediaplayer.h \
- C:/Qt/6.9.3/mingw_64/include/QtCore/qurl.h \
  C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
- C:/Qt/6.9.3/mingw_64/include/QtGui/qtguiglobal.h \
- C:/Qt/6.9.3/mingw_64/include/QtGui/qtgui-config.h \
- C:/Qt/6.9.3/mingw_64/include/QtGui/qtguiexports.h \
  C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qtmultimedia-config.h \
  C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qtmultimediaexports.h \
  C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qtaudio.h \
@@ -354,4 +457,5 @@ CMakeFiles/mp3player.dir/main.cpp.obj: \
  C:/Qt/6.9.3/mingw_64/include/QtCore/QObject \
  C:/Qt/6.9.3/mingw_64/include/QtCore/qobject.h \
  C:/Qt/6.9.3/mingw_64/include/QtMultimedia/QAudioOutput \
- C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qaudiooutput.h
+ C:/Qt/6.9.3/mingw_64/include/QtMultimedia/qaudiooutput.h \
+ D:\Estudos\Universidade\p3\POO\Projeto\ final\design\CLI.h

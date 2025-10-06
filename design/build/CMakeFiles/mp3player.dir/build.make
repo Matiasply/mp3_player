@@ -92,20 +92,20 @@ CMakeFiles/mp3player.dir/mp3player_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mp3player.dir/mp3player_autogen/mocs_compilation.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Estudos\Universidade\p3\POO\Projeto final\design\build\mp3player_autogen\mocs_compilation.cpp" -o CMakeFiles\mp3player.dir\mp3player_autogen\mocs_compilation.cpp.s
 
-CMakeFiles/mp3player.dir/main.cpp.obj: CMakeFiles/mp3player.dir/flags.make
-CMakeFiles/mp3player.dir/main.cpp.obj: CMakeFiles/mp3player.dir/includes_CXX.rsp
-CMakeFiles/mp3player.dir/main.cpp.obj: D:/Estudos/Universidade/p3/POO/Projeto\ final/design/main.cpp
-CMakeFiles/mp3player.dir/main.cpp.obj: CMakeFiles/mp3player.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Estudos\Universidade\p3\POO\Projeto final\design\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mp3player.dir/main.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mp3player.dir/main.cpp.obj -MF CMakeFiles\mp3player.dir\main.cpp.obj.d -o CMakeFiles\mp3player.dir\main.cpp.obj -c "D:\Estudos\Universidade\p3\POO\Projeto final\design\main.cpp"
+CMakeFiles/mp3player.dir/main_gui.cpp.obj: CMakeFiles/mp3player.dir/flags.make
+CMakeFiles/mp3player.dir/main_gui.cpp.obj: CMakeFiles/mp3player.dir/includes_CXX.rsp
+CMakeFiles/mp3player.dir/main_gui.cpp.obj: D:/Estudos/Universidade/p3/POO/Projeto\ final/design/main_gui.cpp
+CMakeFiles/mp3player.dir/main_gui.cpp.obj: CMakeFiles/mp3player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Estudos\Universidade\p3\POO\Projeto final\design\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mp3player.dir/main_gui.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mp3player.dir/main_gui.cpp.obj -MF CMakeFiles\mp3player.dir\main_gui.cpp.obj.d -o CMakeFiles\mp3player.dir\main_gui.cpp.obj -c "D:\Estudos\Universidade\p3\POO\Projeto final\design\main_gui.cpp"
 
-CMakeFiles/mp3player.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mp3player.dir/main.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Estudos\Universidade\p3\POO\Projeto final\design\main.cpp" > CMakeFiles\mp3player.dir\main.cpp.i
+CMakeFiles/mp3player.dir/main_gui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mp3player.dir/main_gui.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Estudos\Universidade\p3\POO\Projeto final\design\main_gui.cpp" > CMakeFiles\mp3player.dir\main_gui.cpp.i
 
-CMakeFiles/mp3player.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mp3player.dir/main.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Estudos\Universidade\p3\POO\Projeto final\design\main.cpp" -o CMakeFiles\mp3player.dir\main.cpp.s
+CMakeFiles/mp3player.dir/main_gui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mp3player.dir/main_gui.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Estudos\Universidade\p3\POO\Projeto final\design\main_gui.cpp" -o CMakeFiles\mp3player.dir\main_gui.cpp.s
 
 CMakeFiles/mp3player.dir/Track.cpp.obj: CMakeFiles/mp3player.dir/flags.make
 CMakeFiles/mp3player.dir/Track.cpp.obj: CMakeFiles/mp3player.dir/includes_CXX.rsp
@@ -182,53 +182,56 @@ CMakeFiles/mp3player.dir/FileManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mp3player.dir/FileManager.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Estudos\Universidade\p3\POO\Projeto final\design\FileManager.cpp" -o CMakeFiles\mp3player.dir\FileManager.cpp.s
 
-CMakeFiles/mp3player.dir/CLI.cpp.obj: CMakeFiles/mp3player.dir/flags.make
-CMakeFiles/mp3player.dir/CLI.cpp.obj: CMakeFiles/mp3player.dir/includes_CXX.rsp
-CMakeFiles/mp3player.dir/CLI.cpp.obj: D:/Estudos/Universidade/p3/POO/Projeto\ final/design/CLI.cpp
-CMakeFiles/mp3player.dir/CLI.cpp.obj: CMakeFiles/mp3player.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Estudos\Universidade\p3\POO\Projeto final\design\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mp3player.dir/CLI.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mp3player.dir/CLI.cpp.obj -MF CMakeFiles\mp3player.dir\CLI.cpp.obj.d -o CMakeFiles\mp3player.dir\CLI.cpp.obj -c "D:\Estudos\Universidade\p3\POO\Projeto final\design\CLI.cpp"
+CMakeFiles/mp3player.dir/MainWindow.cpp.obj: CMakeFiles/mp3player.dir/flags.make
+CMakeFiles/mp3player.dir/MainWindow.cpp.obj: CMakeFiles/mp3player.dir/includes_CXX.rsp
+CMakeFiles/mp3player.dir/MainWindow.cpp.obj: D:/Estudos/Universidade/p3/POO/Projeto\ final/design/MainWindow.cpp
+CMakeFiles/mp3player.dir/MainWindow.cpp.obj: CMakeFiles/mp3player.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Estudos\Universidade\p3\POO\Projeto final\design\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mp3player.dir/MainWindow.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mp3player.dir/MainWindow.cpp.obj -MF CMakeFiles\mp3player.dir\MainWindow.cpp.obj.d -o CMakeFiles\mp3player.dir\MainWindow.cpp.obj -c "D:\Estudos\Universidade\p3\POO\Projeto final\design\MainWindow.cpp"
 
-CMakeFiles/mp3player.dir/CLI.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mp3player.dir/CLI.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Estudos\Universidade\p3\POO\Projeto final\design\CLI.cpp" > CMakeFiles\mp3player.dir\CLI.cpp.i
+CMakeFiles/mp3player.dir/MainWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mp3player.dir/MainWindow.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Estudos\Universidade\p3\POO\Projeto final\design\MainWindow.cpp" > CMakeFiles\mp3player.dir\MainWindow.cpp.i
 
-CMakeFiles/mp3player.dir/CLI.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mp3player.dir/CLI.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Estudos\Universidade\p3\POO\Projeto final\design\CLI.cpp" -o CMakeFiles\mp3player.dir\CLI.cpp.s
+CMakeFiles/mp3player.dir/MainWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mp3player.dir/MainWindow.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Estudos\Universidade\p3\POO\Projeto final\design\MainWindow.cpp" -o CMakeFiles\mp3player.dir\MainWindow.cpp.s
 
 # Object files for target mp3player
 mp3player_OBJECTS = \
 "CMakeFiles/mp3player.dir/mp3player_autogen/mocs_compilation.cpp.obj" \
-"CMakeFiles/mp3player.dir/main.cpp.obj" \
+"CMakeFiles/mp3player.dir/main_gui.cpp.obj" \
 "CMakeFiles/mp3player.dir/Track.cpp.obj" \
 "CMakeFiles/mp3player.dir/Playlist.cpp.obj" \
 "CMakeFiles/mp3player.dir/Equalizer.cpp.obj" \
 "CMakeFiles/mp3player.dir/MP3Player.cpp.obj" \
 "CMakeFiles/mp3player.dir/FileManager.cpp.obj" \
-"CMakeFiles/mp3player.dir/CLI.cpp.obj"
+"CMakeFiles/mp3player.dir/MainWindow.cpp.obj"
 
 # External object files for target mp3player
 mp3player_EXTERNAL_OBJECTS =
 
 mp3player.exe: CMakeFiles/mp3player.dir/mp3player_autogen/mocs_compilation.cpp.obj
-mp3player.exe: CMakeFiles/mp3player.dir/main.cpp.obj
+mp3player.exe: CMakeFiles/mp3player.dir/main_gui.cpp.obj
 mp3player.exe: CMakeFiles/mp3player.dir/Track.cpp.obj
 mp3player.exe: CMakeFiles/mp3player.dir/Playlist.cpp.obj
 mp3player.exe: CMakeFiles/mp3player.dir/Equalizer.cpp.obj
 mp3player.exe: CMakeFiles/mp3player.dir/MP3Player.cpp.obj
 mp3player.exe: CMakeFiles/mp3player.dir/FileManager.cpp.obj
-mp3player.exe: CMakeFiles/mp3player.dir/CLI.cpp.obj
+mp3player.exe: CMakeFiles/mp3player.dir/MainWindow.cpp.obj
 mp3player.exe: CMakeFiles/mp3player.dir/build.make
 mp3player.exe: C:/Qt/6.9.3/mingw_64/lib/libQt6Multimedia.a
-mp3player.exe: C:/Qt/6.9.3/mingw_64/lib/libQt6Gui.a
+mp3player.exe: C:/Qt/6.9.3/mingw_64/lib/libQt6Widgets.a
 mp3player.exe: C:/Qt/6.9.3/mingw_64/lib/libQt6Network.a
+mp3player.exe: C:/Qt/6.9.3/mingw_64/lib/libQt6Gui.a
 mp3player.exe: C:/Qt/6.9.3/mingw_64/lib/libQt6Core.a
+mp3player.exe: C:/Qt/6.9.3/mingw_64/lib/libQt6EntryPoint.a
 mp3player.exe: CMakeFiles/mp3player.dir/linkLibs.rsp
 mp3player.exe: CMakeFiles/mp3player.dir/objects1.rsp
 mp3player.exe: CMakeFiles/mp3player.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Estudos\Universidade\p3\POO\Projeto final\design\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable mp3player.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\mp3player.dir\link.txt --verbose=$(VERBOSE)
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "D:/Estudos/Universidade/p3/POO/Projeto final/design/style.qss" "D:/Estudos/Universidade/p3/POO/Projeto final/design/build"
 
 # Rule to build all files generated by this target.
 CMakeFiles/mp3player.dir/build: mp3player.exe
